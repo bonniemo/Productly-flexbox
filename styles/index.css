@@ -157,28 +157,28 @@ margin-top: 113px;
     margin-top:34px;
 
 }
-.section-four {
+.section-four, .section-six {
     width: 1110px;
     height: 574px;
     margin-top: 20px;
     display: flex;
     flex-wrap: nowrap;
 }
-.section-four__text {
+.section-four__text, .section-six__text {
     width: 486px; 
     height: 531px;
 }
-.section-four__paragraph {
+.section-four__paragraph, .section-six__paragraph {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
 }
-.section-four__header-big {
+.section-four__header-big, .section-six__header-big {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
 }
-.section-four__header {
+.section-four__header, .section-six__header {
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
@@ -223,3 +223,4 @@ margin-top: 113px;
 .section-five__box-dot {
     margin-right: 30px;
 }
+
