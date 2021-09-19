@@ -14,8 +14,13 @@ a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    color: #2F281E
+    color: #2F281E;
+    font-size: 14px;
+    line-height: 28px;
 }
+ a:hover {
+    font-size: 18px;
+  }
 .header {
     width: 1400px;
     height: 78px;
@@ -41,6 +46,19 @@ a {
     border-style: solid;
     background-color: white;
     border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.header__btn-in:hover {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.header__btn-up:hover {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
 }
 .header__btn-up {
     width: 110px;
@@ -49,6 +67,9 @@ a {
     color: #FFFFFF;
     border-style: none;
     border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
 }
 .section-one {
     width: 518px;
@@ -82,6 +103,9 @@ margin-top: 113px;
     line-height: 24px;
     border-radius: 5px;
 }
+.section-one__btn-start:hover {
+    font-size: 18px;
+}
 .section-one__btn-watch {
     width: 110px;
     height: 46px;
@@ -90,9 +114,13 @@ margin-top: 113px;
     border-radius: 5px;
     background-color: #FFFFFF;
 }
+.section-one__btn-watch:hover {
+    font-size: 18px;
+}
 .section-one__img {
     width: 605px;
     height: 496px;
+    margin-left: 100px;
 }
 .section-start {
     display: flex;
@@ -157,6 +185,9 @@ margin-top: 113px;
     margin-top:34px;
 
 }
+.section-three__btn:hover {
+    font-size: 18px;
+}
 .section-four, .section-six {
     width: 1110px;
     height: 574px;
@@ -186,6 +217,7 @@ margin-top: 113px;
 .section-four__img {
     width: 520px;
     height: 574px;
+    margin-left: 100px;
 }
 .section-five {
     width: 1121px;
@@ -202,6 +234,7 @@ margin-top: 113px;
     width: 486px;
     height: 427px;
     margin-top: 43px;
+    margin-left: 100px;
 }
 .section-five__paragraph {
     font-weight: 400; /*I know it says 500 but I don´t think I found 500 normal in google fonts so I solved it like this.*/
@@ -223,4 +256,56 @@ margin-top: 113px;
 .section-five__box-dot {
     margin-right: 30px;
 }
+.section-six__img {
+    border-left: 100px;
+}
 
+.footer {
+    width: 1109px;
+    height: 308px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-img {
+    margin-top: 120px;
+    width: 185px;
+    height: 32px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 126px;
+    margin-right: 129px;
+    margin-top: 102px;
+}
+.footer-nav-two {
+    margin-top: 102px;
+}
+.footer__form{
+    width: 325px;
+    height: 199px;
+    border-color: #BCD0E5;
+    border-top-style: solid;
+    margin-top: 95px;
+    margin-left: 82px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__input {
+    width: 325px;
+    height: 48px;
+}
+.footer__btn {
+    width: 131px;
+    height: 39px;
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border-color: #BCD0E5;
+    border-style: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+    margin-top:21px;
+
+}
